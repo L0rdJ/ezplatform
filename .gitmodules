@@ -1,0 +1,3 @@
+[submodule "platformsh-utils"]
+	path = platformsh-utils
+	url = git@gitlab.com:contextualcode/platformsh-utils.git
