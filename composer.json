@@ -25,6 +25,7 @@
     },
     "require": {
         "php": "^7.1.3",
+        "contextualcode/ezplatform-content-variables": "dev-master",
         "doctrine/doctrine-bundle": "^1.9.1",
         "doctrine/orm": "^2.6.3",
         "ezsystems/doctrine-dbal-schema": "^0.1@dev",
@@ -123,5 +124,8 @@
         "branch-alias": {
             "dev-master": "2.5.x-dev"
         }
-    }
+    },
+    "repositories": [
+        { "type" : "vcs", "url": "git@gitlab.com:contextualcode/ezplatform-content-variables.git" }
+    ]
 }

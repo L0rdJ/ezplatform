@@ -61,3 +61,6 @@ overblog_graphql_endpoint:
     defaults:
         _controller: Overblog\GraphQLBundle\Controller\GraphController::endpointAction
         _format: json
+
+content_variables:
+    resource: "@EzPlatformContentVariablesBundle/Resources/config/routing.yml"

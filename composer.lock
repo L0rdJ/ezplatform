@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b62150b92004a306bc2400c61431be1",
+    "content-hash": "3cc17647f88a8977c7b19228f470f998",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -61,6 +61,53 @@
                 "tls"
             ],
             "time": "2019-08-30T08:44:50+00:00"
+        },
+        {
+            "name": "contextualcode/ezplatform-content-variables",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/contextualcode/ezplatform-content-variables.git",
+                "reference": "674ab3e489f4ba96e34324990ca1347ac2ab6a84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/contextualcode%2Fezplatform-content-variables/repository/archive.zip?sha=674ab3e489f4ba96e34324990ca1347ac2ab6a84",
+                "reference": "674ab3e489f4ba96e34324990ca1347ac2ab6a84",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": "^2.6",
+                "ezsystems/ezplatform-admin-ui": "^1.5",
+                "ezsystems/ezpublish-kernel": "^7.5",
+                "php": ">=7.1"
+            },
+            "suggest": {
+                "doctrine/doctrine-migrations-bundle": "To apply required database changes",
+                "kaliop/ezmigrationbundle": "To apply required database changes"
+            },
+            "type": "ezplatform-bundle",
+            "autoload": {
+                "psr-4": {
+                    "ContextualCode\\EzPlatformContentVariablesBundle\\": "src/bundle/",
+                    "ContextualCode\\EzPlatformContentVariables\\": "src/lib/"
+                }
+            },
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Serhey Dolgushev",
+                    "email": "serhey@contextualcode.com"
+                }
+            ],
+            "description": "eZ Platform bundle which provides dynamic content variables and UI to manage them",
+            "homepage": "http://www.contextualcode.com",
+            "keywords": [
+                "ezplatform"
+            ],
+            "time": "2019-10-22T22:52:38+00:00"
         },
         {
             "name": "cron/cron",
@@ -10082,6 +10129,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "contextualcode/ezplatform-content-variables": 20,
         "ezsystems/doctrine-dbal-schema": 20,
         "ezsystems/ez-support-tools": 20,
         "ezsystems/ezplatform-admin-ui": 20,
