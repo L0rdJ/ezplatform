@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/contextualcode/ezplatform-content-variables.git",
-                "reference": "572df23fe76f5605b21204f984ed97013a4b5ac7"
+                "reference": "410ad100ae6c1c7308ff65df1ec46ab1d3d8a43f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/contextualcode%2Fezplatform-content-variables/repository/archive.zip?sha=572df23fe76f5605b21204f984ed97013a4b5ac7",
-                "reference": "572df23fe76f5605b21204f984ed97013a4b5ac7",
+                "url": "https://gitlab.com/api/v4/projects/contextualcode%2Fezplatform-content-variables/repository/archive.zip?sha=410ad100ae6c1c7308ff65df1ec46ab1d3d8a43f",
+                "reference": "410ad100ae6c1c7308ff65df1ec46ab1d3d8a43f",
                 "shasum": ""
             },
             "require": {
@@ -107,7 +107,7 @@
             "keywords": [
                 "ezplatform"
             ],
-            "time": "2019-11-19T14:07:58+00:00"
+            "time": "2019-11-25T10:27:58+00:00"
         },
         {
             "name": "cron/cron",
